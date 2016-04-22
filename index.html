@@ -17,19 +17,29 @@
           <p>I came across the work of Erik Soderberg</p>
       </div>
       <div>
-        <form action=>
+        <form name="design-preference" action="https://httpbin.org/post" method="post">
+          <div>
+            <label>What do you prefer?</label>
+            <select name="design-type">
+              <option value="design">Design</option>
+              <option value="fractals">Fractals</option>
+              <option value="both">Both</option>
+              <option value="neither">Neither</option>
+            </select>
+          </div>
+          <button type="submit">See your response</button>
         </form>
+        <p><a href="http://work.eriksoderberg.se/Fractal-Experience-Part-2">Click here for original site</a></p>
         <p>Likes</p>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>Clean, simple design</li>
+          <li>Visually appealing</li>
+          <li>A great demonstration of 3D graphics </li>
         </ul>
         <p>Dislikes</p>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>The website uses a transitional XHTML DocType (might be outdated)</li>
+          <li>Takes a long time to load due to graphics</li>
         </ul>
 
       </div>
