@@ -13,8 +13,37 @@ header p {
 
 #torus-style {
   display: block;
-  height: 400px;
-  width: 400px;
+  /*height: 400px;
+  width: 400px;*/
+  height: 25%;
+  width: 25%;
+  min-width: 75px;
+  min-height: 75px;
   margin: 40px auto;
   border: 5px solid black;
+
+}
+
+#list-item-styling {
+  
+  /*background-image: url(images/cube-grid.png);*/
+  background-image: url(images/floral.png);
+  border-radius: 25px;
+  width: 60%;
+  height: 500px;
+  border: 10px solid #3F377B;
+}
+
+#main-list {
+  
+  color: black;
+  font-weight: bolder;
+  padding: 20px;
+  height: 25%;
+  letter-spacing: 2px;
+  
+}
+
+li {
+  list-style-type: square;
 }
