@@ -1,0 +1,101 @@
+body {
+  background-color: gray;
+  font-family: sans-serif;
+  width: 100%;
+  min-width: 250px;
+}
+
+header p {
+  display: block;
+  max-width: 700px
+}
+
+#torus-style {
+  display: block;
+  /*height: 400px;
+  width: 400px;*/
+  height: 25%;
+  width: 25%;
+  /*margin: 40px auto;*/
+  min-width: 75px;
+  min-height: 75px;
+  
+  border: 5px solid black;
+
+}
+
+#list-container-style {
+  
+  /*background-image: url(images/cube-grid.png);*/
+  background-image: url(images/floral.png);
+  border-radius: 25px;
+  width: 60%;
+  height: 100%;
+  border: 10px solid #3F377B;
+}
+
+#main-list {
+  
+  color: black;
+  font-weight: bolder;
+  padding: 20px;
+  height: 100%;
+  letter-spacing: 2px;
+  
+}
+
+li {
+  list-style-type: square;
+}
+
+.heading-style{
+  font-family: Times, Georgia;
+  font-style: oblique;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+a:link{
+  color: blue;
+}
+
+a:hover{
+  color: white;
+  background-color: #3F377B;
+  font-style: italic;
+}
+a:visited{
+  color: purple;
+}
+
+#page-footer{
+  width: 300px;
+  margin: 100px auto 10px auto;
+  background-image: url(images/cube-grid.png);
+  border-radius: 25px;
+  text-align: center;
+  vertical-align: center;
+  padding: 15px;
+  min-height: 30px;
+  
+}
+
+#examples-main {
+  max-width: 700px;
+  min-height: 300px;
+
+}
+#other-examples{
+  float: left;
+  margin-right: 15px;
+
+}
+
+#form-section{
+  margin: 35px 5px;
+}
+
+@media (min-width: 200px)  and (max-width: 500px){
+  body {  font-size: 75%;  }
+}
+
