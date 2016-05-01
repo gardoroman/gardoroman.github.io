@@ -55,3 +55,20 @@ li {
   font-weight: bolder;
   font-size: 25px;
 }
+
+a:link{
+  color: blue;
+}
+
+a:hover{
+  color: white;
+  background-color: #3F377B;
+  font-style: italic;
+}
+a:visited{
+  color: purple;
+}
+
+#page-footer{
+  
+}
