@@ -7,9 +7,7 @@ body {
 
 header p {
   display: block;
-  width: 300px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 700px
 }
 
 #torus-style {
@@ -18,9 +16,10 @@ header p {
   width: 400px;*/
   height: 25%;
   width: 25%;
+  /*margin: 40px auto;*/
   min-width: 75px;
   min-height: 75px;
-  margin: 40px auto;
+  
   border: 5px solid black;
 
 }
@@ -70,5 +69,29 @@ a:visited{
 }
 
 #page-footer{
+  width: 300px;
+  margin: 100px auto 10px auto;
+  background-image: url(images/cube-grid.png);
+  border-radius: 25px;
+  text-align: center;
+  vertical-align: center;
+  padding: 15px;
+  min-height: 30px;
   
 }
+
+#examples-main {
+  max-width: 700px;
+  min-height: 300px;
+
+}
+#other-examples{
+  float: left;
+  margin-right: 15px;
+
+}
+
+#form-section{
+  margin: 35px 5px;
+}
+
