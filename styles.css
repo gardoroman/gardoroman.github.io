@@ -95,3 +95,7 @@ a:visited{
   margin: 35px 5px;
 }
 
+@media (min-width: 200px)  and (max-width: 500px){
+  body {  font-size: 75%;  }
+}
+

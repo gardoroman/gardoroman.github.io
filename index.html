@@ -2,24 +2,35 @@
 <html>
   <head>
     <title>3D Art</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
     <body>
-      <div>
-        <header>
-          <h3>Erik Soderberg</h3>
-            <p>
-              Other Examples
-              <a href="hairball.html">hairball</a>
-              <a href="mercury.html">mercury</a>
-            </p>
-        </header>
-          <img src="images/torus.gif" alt="torus">
-          <p>I came across the work of Erik Soderberg. He is a <em>cross-media</em> artist creating audio and visual art. I am most impressed with his 3D work. Some of his 3D work features on fractals.
-          </p>
-      </div>
-      <div>
-        <form name="design-preference" action="https://httpbin.org/post" method="post">
+      <main>
+        <section>
+          <header>
+            <h3 class="heading-style">Erik Soderberg</h3>
+              <p>
+                I came across the work of Erik Soderberg. He is a <em>cross-media</em> artist creating audio and visual art. I am most impressed with his 3D work. Some of his 3D work features on fractals.
+              </p>
+          </header>
+          
+            <nav id="other-examples">
+              <h4>Other examples</h4>
+              <ul>
+                <li><a href="hairball.html">hairball</a></li>
+                <li><a href="mercury.html">mercury</a></li>
+              </ul>
+            </nav>
+            <div>
+              <img id="torus-style" src="images/torus.gif" alt="torus">
+              <p>This is an interesting example of his work</p>
+            </div>
+          
+        </section>
+      </main>
+      <section id="form-section">
+        <h3>Preferences</h3>
+        <form name="design-preference" action="under.html" method="post">
           <div>
             <label>What do you prefer?</label>
             <select name="design-type">
@@ -32,19 +43,26 @@
           <button type="submit">See your response</button>
         </form>
         <p><a href="http://work.eriksoderberg.se/Fractal-Experience-Part-2">Click here for original site</a></p>
-        <p>Website Pros</p>
-        <ul>
-          <li>Clean, simple design</li>
-          <li>Visually appealing</li>
-          <li>A great demonstration of 3D graphics </li>
-        </ul>
-        <p>Website Cons</p>
-        <ul>
-          <li>The website uses a transitional XHTML DocType (might be outdated)</li>
-          <li>Takes a long time to load due to graphics</li>
-        </ul>
+      </section>
+        
+        <section id="list-container-style">
+          <div id="main-list">
+            <h3 class="heading-style">Website Pros</h3>
+            <ul>
+              <li>Clean, simple design</li>
+              <li>Visually appealing</li>
+              <li>A great demonstration of 3D graphics </li>
+            </ul>
+            <h3 class="heading-style">Website Cons</h3>
+            <ul>
+              <li>The website uses a transitional XHTML DocType (might be outdated)</li>
+              <li>Takes a long time to load due to graphics</li>
+            </ul>
+          </div>
 
-      </div>
-      <footer>Page by E. Roman</footer>
+        </section>
+        
+      
+      <footer id="page-footer">Page by E. Roman</footer>
     </body>
 </html>
