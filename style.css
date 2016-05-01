@@ -2,6 +2,7 @@ body {
   background-color: gray;
   font-family: sans-serif;
   width: 100%;
+  min-width: 250px;
 }
 
 header p {
@@ -24,13 +25,13 @@ header p {
 
 }
 
-#list-item-styling {
+#list-container-style {
   
   /*background-image: url(images/cube-grid.png);*/
   background-image: url(images/floral.png);
   border-radius: 25px;
   width: 60%;
-  height: 500px;
+  height: 100%;
   border: 10px solid #3F377B;
 }
 
@@ -39,11 +40,18 @@ header p {
   color: black;
   font-weight: bolder;
   padding: 20px;
-  height: 25%;
+  height: 100%;
   letter-spacing: 2px;
   
 }
 
 li {
   list-style-type: square;
+}
+
+.heading-style{
+  font-family: Times, Georgia;
+  font-style: oblique;
+  font-weight: bolder;
+  font-size: 25px;
 }
